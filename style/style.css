@@ -1,0 +1,76 @@
+body{
+  background-color: #BBDEFB;
+}
+.google-text{
+  font-family: Montserrat;
+}
+.container-fluid{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.custom-navbar{
+  font-family: Montserrat;
+  background-color: #2196f3;
+}
+#nav-txt{
+  color: white;
+}
+header{
+  text-align: center;
+}
+.portfolio-image{
+  width: 300px;
+  border-radius: 50%;
+  margin: 50px auto 25px auto;
+  display: block;
+}
+.frontpage-name {
+  color: black;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 40px;
+}
+hr.star-light{
+  color: #000;
+}
+hr.star-light, hr.star-primary {
+margin: 25px auto 30px;
+padding: 0;
+max-width: 250px;
+border: 0;
+border-top: solid 5px;
+text-align: center;
+}
+.frontpage-skills{
+  color: black;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+.bottom-padding{
+  margin-bottom: 45px;
+}
+.footer-above{
+  padding-top: 50px;
+}
+.social-icons{
+  font-size: 40px;
+}
+#about {
+  background-color: #90caf9;
+  padding: 50px 150px 50px 150px;
+}
+#contact {
+  background-color: #90caf9;
+  padding: 50px 150px 50px 150px;
+}
+#copyright-text{
+  font-size: 12px;
+  padding-top: 20px;
+}
+#contact-info{
+  padding-top: 25px;
+}
+#portpics{
+	display: block;
+	margin: 0 auto;
+}

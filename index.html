@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <!--Title Page-->
+  <title>Spencer Gang: Portfolio</title>
+  <!--Bootstrap Link-->
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <!--CSS Link-->
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<!--Navbar Setup-->
+<nav class="navbar navbar-default navbar-fixed-top custom-navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle"></button>
+      <a href="#" class="navbar-brand" id="nav-txt">My Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about" id="nav-txt">About Me <i class="fa fa-info-circle"></i></a></li>
+        <li><a href="#portfolio" id="nav-txt">Portfolio <i class="fa fa-folder"></i></a></li>
+        <li><a href="#contact" id="nav-txt">Contact Me <i class="fa fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Header-->
+<header>
+  <div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="img-responsive img-rounded portfolio-image" src="res/spencer_gang_photo.jpg" alt="Picture">
+        <div>
+          <span class="frontpage-name">Spencer Gang</span>
+          <hr class="star-light">
+          <span class="frontpage-skills">Aspiring Coder - Game Dev - College Student</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+
+<!--About Me-->
+<div class="container-fluid text-center google-text side-padding" id="about">
+  <h1>About Me</h1>
+  <p>My name is Spencer Gang, I am a currently studying for a Computer Science undergrad at Cleveland State University. My favorite hobbies include game dev, playing videogames, and coding in general. Some of my favorite programming languages include Java, C, JavaScript, and HTML.</p>
+</div>
+
+<!--Portfolio-->
+<div class="container-fluid text-center google-text" id="portfolio">
+  <h1 class="bottom-padding">My Portfolio</h1>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>FEM (File Encryption Module)</p>
+      <a href="https://github.com/gangspencer/FEM"><img src="res/fem.png" class="img-responsive" id="portpics"></a>
+    </div>
+    <div class="col-sm-4">
+      <p>Placeholder</p>
+      <img src="res/placeholder.png" class="img-responsive" id="portpics">
+    </div>
+    <div class="col-sm-4">
+      <p>Placeholder</p>
+      <img src="res/placeholder.png" class="img-responsive"id="portpics">
+    </div>
+  </div>
+</div>
+
+<!--Contact Me-->
+<div id="contact" class="container-fluid google-text side-padding">
+  <h1 class="text-center bottom-padding">Contact Me</h1>
+  <div class="row">
+    <div class="col-sm-5">
+      <p id="contact-info">Contact me and I will reply ASAP</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Cleveland, US</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> s.gang@vikes.csuohio.edu</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+<footer class="container-fluid text-center google-text">
+  <h2>Around the Web</h2>
+  <div class="container social-icons">
+    <a href="https://www.facebook.com/spencer.gang?fref=ts"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/gang_spencer"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/spencer_gang/"><i class="fa fa-instagram"></i></a>
+  </div>
+  <p id="copyright-text">Copyright &copy; Spencer Gang 2017</p>
+</footer>
+
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
